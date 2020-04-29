@@ -1,0 +1,48 @@
+header {
+  background: purple;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px 90px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  
+}
+
+a {
+  background: cyan;
+  margin: 10px;
+  width: 100px;
+  height: 25px;
+  display: block;
+}
+
+.bigger {
+  width: 150px;
+}
+
+div {
+margin: 80px 100px 10px;
+  display: flex;
+  height: 500px;
+  flex-direction: row-reverse;
+}
+
+yellow {
+  background: yellow;
+  flex-grow: 3;
+  
+}
+
+green {
+  background: green;
+  flex-grow: 1;
+}
+
+
+footer {
+  margin: 0 100px;
+  background: lightgrey;
+  height: 80px;
+}
